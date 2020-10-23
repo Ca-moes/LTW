@@ -1,0 +1,33 @@
+#register, #login {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#register form, #login form {
+    background-color: white;
+    padding: 1em;
+    width: 20em;
+}
+
+#register label, #register label input, #login label, #login label input{
+    display: block;
+    margin-top: 1em;
+}
+
+#register input, #login input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+    outline: none;
+}
+
+#register input[type="submit"], #login input[type="submit"]{
+    width: 7em;
+    height: 3em;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    margin-top: 1em;
+    margin-left: 70%;
+}

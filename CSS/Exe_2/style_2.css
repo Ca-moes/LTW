@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding-left: 40px;
+    background-image: url("stripe.png");
+    background-color: #ddddff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    color: white;
+    background-color:#000000;
+    margin: 0em;
+    padding: 1em;
+}
+
+#header h1 {
+    margin: 0;
+    padding-top: 0em;
+}
+
+#header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    background-color: #333333;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0.8em;
+}
+
+#menu li {
+    display: inline;
+    padding: .1em 1em;
+    margin: 0 0.2em;
+    background-color: white;
+}
+
+#menu li:last-child{
+    border-right: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#content {
+    background-color: #ffffff;
+}
+
+.news-item {
+    padding: 0.5em 1em;
+}
+
+.news-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.news-item img {
+    float: right;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.news-item p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: brown;
+}
+
+.introduction {
+    font-style: italic;
+}
+
+.news-item ul{
+    background-color: #333333 ;
+    border-bottom: 1px solid black;
+    padding: 0.5em 0;
+    margin: 0;
+}
+
+.news-item li {
+    display: inline;
+    padding: 0.5em;
+}
+
+.news-item li a {
+    color: white;
+}
+
+#footer {
+    background-color: white;
+}
+
+#footer p {
+    text-align: right;
+    margin: 0;
+    padding: 1em ;
+}
