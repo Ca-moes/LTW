@@ -7,7 +7,7 @@
       <header>
         <h1><a href="news_item.php?id=<?=$article['id']?>"><?= $article['title']?></a></h1>
       </header>
-      <img src="http://lorempixel.com/600/300/business/" alt="">
+      <img src="http://picsum.photos/600/300?id=<?=$article['id']?>" alt="">
       <p><?= $article['introduction']?></p> 
       <p><?= $article['fulltext']?></p>
       <footer>
