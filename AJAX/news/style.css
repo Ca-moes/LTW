@@ -420,6 +420,9 @@ body > header #signup {
   margin: 1em;
 }
 
+#comments .id {
+  visibility: hidden;
+}
 
 #comments .user {
   font-style: italic;
